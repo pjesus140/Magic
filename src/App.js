@@ -1,24 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/card.js';
 
 function App() {
-  return (
+  let bloodfire={
+      name:"Bloodfire Colossus",
+      img:"https://assets.echomtg.com/magic/cards/cropped/88171.hq.jpg",
+      type:"Creature - Giant",
+      ability:",Sacrifice Bloodfire Colossus: It deals 6 damage to each creature and each player.",
+      lore:"It took all its strength to contain the fire within.",
+      stats:"6/6",
+      expansion:"https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=DDI&size=small&rarity=R"
+ 
+    }
+
+    return (
+    
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card info={bloodfire}/>
     </div>
   );
 }

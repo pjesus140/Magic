@@ -1,5 +1,46 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+.card{
+  width: 28rem;
+}
+#flavor{
+  font-style: italic;
+}
+
+#title{
+  border-style: double;
+  border-color: red;
+  background-color: white;
+
+}
+
+#big-font{
+  font-size: 30px;
+}
+
+#black{
+  color: black;
+}
+
+#outer{
+  border-style: solid;
+  border-color: black;
+ border-width: 20px;
+  background-image: url("https://www.onlygfx.com/wp-content/uploads/2016/07/wrinkled-red-paper-3.jpg")
+}
+#totalMana{
+
+  text-align: right;
+}
+
+#mana{
+  text-align: right;
+  width: 17px;
+  
+}
+
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
