@@ -51,10 +51,10 @@ export default class Card extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-sm">
-                                <p id="black"><strong>Greg Staples</strong></p>
+                                <p id="black"><strong>{this.props.info.artist}</strong></p>
                             </div>
                             <div class="col-sm">
-                                <p id="black">177:350</p>
+                                <p id="black">{this.props.info.number}</p>
 
                             </div>
                             <div class="col-sm">

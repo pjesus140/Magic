@@ -11,7 +11,9 @@ function App() {
       ability:",Sacrifice Bloodfire Colossus: It deals 6 damage to each creature and each player.",
       lore:"It took all its strength to contain the fire within.",
       stats:"6/6",
-      expansion:"https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=DDI&size=small&rarity=R"
+      expansion:"https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=DDI&size=small&rarity=R",
+      artist:"Greg Staples",
+      number:"177:350"
  
     }
 
